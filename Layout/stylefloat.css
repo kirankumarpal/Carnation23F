@@ -1,0 +1,30 @@
+html{
+    background-color: rgb(229, 218, 240);
+}
+
+div{
+    border: solid;
+    background-color: rgb(6, 14, 14);
+    border-radius: 20px; 
+    border-width: thin;
+}
+
+h1{
+    border: solid rgb(90, 13, 141);   
+    border-radius: 8px; 
+    border-width: thin;
+}
+
+#i1{
+    background-color: rgb(182, 182, 176);
+    float: left;
+}
+
+#i2{
+    background-color: rgb(167, 167, 41);
+    float: right;
+}
+
+#i3{
+    clear: both;
+}

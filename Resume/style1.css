@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 80% 20%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}  
+
+.text1{
+    margin-left: auto;
+}
+
+img {
+    height: 180px;
+    width: 140px;
+    display: block;
+    padding: 15px;
+}
+
+.name{
+        color: rgb(41, 41, 192);
+        font-size: 50px;
+        line-height: 100%;
+}
+
+table,th,td {
+    border-collapse: collapse;
+    border:solid black;
+    border-width: thin;
+    padding: 10px;
+}

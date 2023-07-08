@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, rgb(94, 202, 245), rgb(242, 242, 250));
+}
+.inside{
+    font-size: 25px;
+    font-weight: bold;
+}
+.main{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    margin-top: 150px;
+}
+.words{
+    height: 25px;
+    width: 350px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+}
+.signup{
+    font-size: 20px;
+    padding:1px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.name{
+    padding: 1px 15px;
+}
+#result{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    color: blue;
+}

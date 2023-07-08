@@ -1,0 +1,28 @@
+html{
+    background-color: rgb(229, 218, 240);
+}
+
+div{
+    border: solid;
+    background-IMG_20180617_072930.jpgcolor: rgb(6, 14, 14);
+    border-radius: 20px; 
+    border-width: thin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    border: solid #5a0d8d;   
+    border-radius: 8px; 
+    border-width: thin;
+}
+
+#i1{
+    background-color: rgb(182, 182, 176);
+    height: 200px;
+}
+
+#i2{
+    background-color: rgb(167, 167, 41);
+}

@@ -1,0 +1,87 @@
+html{
+    background-color: rgb(22, 10, 35);
+    font-family:Actief Grotesque,-apple-system,\.SFNSText-Regular,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
+}
+
+.container1{
+    border: solid;
+    background-color: rgb(220, 232, 232);
+    border-radius: 20px; 
+    border-width: thin;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+div1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+.container2{
+    border: solid;
+    background-color: rgb(108, 147, 147);
+    border-radius: 20px; 
+    border-width: thin;
+    display: flex;
+    justify-content: space-around;
+}
+
+div2{
+    border: solid rgb(242, 242, 228);
+    background-color: rgb(108, 195, 195);
+    border-radius: 20px; 
+    border-width: thin;
+    padding: 20px;
+    margin: 25px;
+}
+
+div3{
+    border: solid rgb(204, 204, 140);
+    background-color: rgb(108, 195, 195);
+    border-radius: 20px; 
+    border-width: thin;
+    width: 300px;
+    margin: 25px;
+}
+
+.container3{
+    border: solid;
+    background-color: rgb(108, 147, 147);
+    border-radius: 20px; 
+    border-width: thin;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 85px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+h1{
+    border: solid #5a0d8d;   
+    border-radius: 8px; 
+    border-width: thin;
+}
+
+#i1{
+    background-color: red;
+    color: white;
+    border: solid #5a0d8d;   
+    border-radius: 8px; 
+    border-width: thin;
+    padding: 5px;
+
+}
+
+#i3{
+    background-color: rgb(244, 244, 127);
+}
+
+#i4{
+    background-color: rgb(180, 180, 159);
+}

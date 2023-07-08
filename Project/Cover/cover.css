@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+html, body, header {
+  height: 100%;
+}
+header {
+  background-image: url('../Main/Images/Bg.jpg');
+  background-size: cover;
+} 
+.cp{
+  position: fixed;
+  font-family: 'Montserrat', sans-serif;
+  font: bold 400 Italic;
+  color: yellow;
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 31%;
+}

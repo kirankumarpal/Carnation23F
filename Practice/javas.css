@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right,  red, yellow,green);
+}
+
+header{
+    margin-top: 100px;
+}
+
+.h1{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(26, 2, 2);
+}
+
+.b{
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(56, 34, 34);
+}
+
+.userpass, #getname, #getadesh{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}

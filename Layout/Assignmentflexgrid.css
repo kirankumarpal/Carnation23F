@@ -1,0 +1,101 @@
+html{
+    background-color: rgb(22, 10, 35);
+    font-family:Actief Grotesque,-apple-system,\.SFNSText-Regular,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
+}
+
+img{
+    height: 85px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.container1{
+    border: solid;
+    background-color: rgb(220, 232, 232);
+    border-radius: 20px; 
+    border-width: thin;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+ 
+div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+#i1{
+    background-color: red;
+    color: white;
+    border: solid #5a0d8d;   
+    border-radius: 8px; 
+    border-width: thin;
+    padding: 10px;
+    width: max-content;
+    text-align: center;
+    font-size: large;
+}
+
+.container2{
+    border: solid;
+    background-color: rgb(108, 147, 147);
+    border-radius: 20px; 
+    border-width: thin;
+    display: flex;
+}
+
+div2{
+    border: solid rgb(242, 242, 228);
+    background-color: rgb(108, 195, 195);
+    border-radius: 20px; 
+    border-width: thin;
+    display: grid;
+    grid-template-columns:100%;
+    padding: 20px;
+    margin: 25px;
+}
+
+#i2{
+    background-color: rgb(180, 180, 159);
+    border: solid #5a0d8d;   
+    border-radius: 8px; 
+    border-width: thin;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    margin: 5px;
+}
+
+div3{
+    border: solid rgb(204, 204, 140);
+    background-color: rgb(108, 195, 195);
+    border-radius: 20px; 
+    border-width: thin;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom :25px;
+    width: 100%;
+}
+
+.container3{
+    border: solid;
+    background-color: rgb(108, 147, 147);
+    border-radius: 20px; 
+    border-width: thin;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-content: space-around;
+}
+
+#i3{
+    background-color: rgb(244, 244, 127);
+    border: solid #5a0d8d;   
+    border-radius: 8px; 
+    border-width: thin;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    margin: 15px;
+}
+

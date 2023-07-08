@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <title>Books Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Main/style.css">
+    <link rel="icon" href="../Main/Images/Books.webp">
+
+</head>
+
+<body>
+    <section class="sec1-1">
+        <div class="nav">
+            <div class="logo" id="src top">
+                <a href="../Main/sample.html"><img src="../Main/Images/logo.png" alt=""></a>
+            </div>
+            <div class="searchbox">
+                <form style="width: 450px;">
+                    <input type="search" style="width: 400px;" class="search"
+                        placeholder="Search by Title, Author, Publisher...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="searchbox1 ">
+                <button type="button" class="btn2 btn-secondary dropdown-toggle" data-bs-toggle="dropdown">My
+                    Account</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item dd" href="../Login Page/Login page.html">Login</a></li>
+                    <li><a class="dropdown-item" href="../Sign Up/Sign up.html" style="color:red" href="#">New to KP Book
+                            Store?<br>Sign Up</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Your Account</a></li>
+                    <li><a class="dropdown-item" href="#">Your Orders</a></li>
+                    <li><a class="dropdown-item" href="#">Your Wishlist</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="nav2">
+                <div class="btn-group">
+                    <button type="button" class="btn3 btn-secondary dropdown-toggle "
+                        data-bs-toggle="dropdown">Books</button>
+                    <ul class="dropdown-menu dropdown">
+                        <li><a class="dropdown-item sc" href="#">Art & Photography</a></li>
+                        <li><a class="dropdown-item sc" href="#">Biographies & Memoirs</a></li>
+                        <li><a class="dropdown-item sc" href="#">Dictionaries & Language</a></li>
+                        <li><a class="dropdown-item sc" href="#">Language Teaching</a></li>
+                        <li><a class="dropdown-item sc" href="#">Literature & literary studies</a></li>
+                        <li><a class="dropdown-item sc" href="#">Fiction</a></li>
+                        <li><a class="dropdown-item sc" href="#">References & Encyclopedias</a></li>
+                        <li><a class="dropdown-item sc" href="#">History & Humanities</a></li>
+                        <li><a class="dropdown-item sc" href="#">Society & Social Sciences</a></li>
+                        <li><a class="dropdown-item sc" href="#">Business & Economics</a></li>
+                        <li><a class="dropdown-item sc" href="#">Law</a></li>
+                        <li><a class="dropdown-item sc" href="#">Medicine</a></li>
+                        <li><a class="dropdown-item sc" href="#">Science & Mathematics</a></li>
+                        <li><a class="dropdown-item sc" href="#">Environment & Geography</a></li>
+                        <li><a class="dropdown-item sc" href="#">Technology & Engineering</a></li>
+                        <li><a class="dropdown-item sc" href="#">Computer & Internet</a></li>
+                        <li><a class="dropdown-item sc" href="#">Parenting, Family & Health</a></li>
+                        <li><a class="dropdown-item sc" href="#">Lifestyle</a></li>
+                        <li><a class="dropdown-item sc" href="#">Children & Tears</a></li>
+                    </ul>
+                </div>
+                <div class="atags"><a href="#">Trending Now</a></div>
+                <div class="atags"><a href="#">Best Selling</a></div>
+                <div class="atags"><a href="../New Arrivals/newarrivals.html">New Arrivals</a></div>
+                <div class="atags"><a href="#">Series</a></div>
+                <div class="atags"><a href="../Award Winners/awardwinners.html">Award Winners</a></div>
+                <div class="atags"><a href="#">Featured Authors</a></div>
+                <div class="atags"><a href="#">Request a Book</a></div>
+                <div class="atags"><a href="#">Local Stores</a></div>
+            </div>
+        </div>
+        <div class="text1">
+            <h1 id="bs">Request A Book</h1>
+        </div>
+    
+    <div class="requestbook floatheading">
+        <div class="row">
+            <div class="col-sm-12">
+                Please fill up the form below to Request a Book. We will inform you as soon as the book is available.
+            </div>
+        </div><br>    
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">ISBN13: *<a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom" title="What is an ISBN used for? An ISBN is essentially a product identifier used by publishers, booksellers, libraries, internet retailers and other supply chain participants for ordering, listing, sales records and stock control purposes. The ISBN identifies the registrant as well as the specific title, edition and format."><img src="./Images/icon-logo-letter-i-symbol-sign-information-vector-32193288.jpg" style="padding: 0px; width: 20px; height: 20px;"></a>
+                </label>
+                <input name="" type="text" maxlength="50" id="" class="form-control" />  
+            </div>
+            <div class="form-group col-md-6">
+                <label for="booktitle">Book Title: *</label>
+                <input name="" type="text" maxlength="250" id="" class="form-control" />
+            </div>
+        </div><br>    
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="Author">Author: </label>
+                <input name="" type="text" maxlength="250" id="" class="form-control" />
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Quantity">Quantity: </label>
+                <input name="" type="text" value="" maxlength="3" id="" class="form-control" />
+            </div>
+        </div><br>
+        <div class="form-row">
+            <div class="form-group col-md-6 ">
+                <div >
+                    <label for="Email Id">Email Id: * </label><br>
+                </div>
+                <div class="email">
+                    <input name="" type="text" maxlength="250" id="" class="form-control" />
+                    <a href="" class="ve">Verify email</a>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Phone/Mobile">Phone/Mobile:</label>
+                <input name="" type="text" value="" maxlength="15" id="" class="form-control" />
+            </div>
+        </div><br> 
+        <div class="submitreq"><a href="" style="color: yellow;"><b>Submit</b></a></div>
+    </div>
+
+    <footer class="pt-4 pb-1 footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12 pl-0">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h4 class="headfoot">Company</h4>
+                            <ul class="list-unstyled text-center ">
+                                <li><a href="" class="textfoot"">About Us</a></li>
+                                <li><a href="" class=" textfoot">Career</a></li>
+                                <li><a href="" class="textfoot" target="_blank">Blog</a></li>
+                                <li><a href="" class="textfoot">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 class="headfoot">Policies</h4>
+                            <ul class="list-unstyled text-center">
+                                <li><a href="" class="textfoot">Terms of Use</a></li>
+                                <li><a href="" class="textfoot">Privacy Policies</a></li>
+                                <li><a href="" class="textfoot">Secure Shopping</a></li>
+                                <li><a href="" class="textfoot">Copyright Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 class="headfoot">Help</h4>
+                            <ul class="list-unstyled text-center">
+                                <li><a href="" class="textfoot">Payment</a></li>
+                                <li><a href="" class="textfoot">Shipping</a></li>
+                                <li><a href="" class="textfoot">Return</a></li>
+                                <li><a href="" class="textfoot">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 class="headfoot">Misc</h4>
+                            <ul class="list-unstyled text-center">
+                                <li><a href="" class="textfoot">Affiliate</a></li>
+                                <li><a href="" class="textfoot">Sitemap</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled icons list-inline text-center">
+                        <li class="list-inline-item"><a href="" height="3px" target="_blank"><img
+                                    src="https://d2g9wbak88g7ch.cloudfront.net/staticimages/twitter.png" class="imgicon"
+                                    alt="Twitter"></a></li>
+                        <li class="list-inline-item"><a href="" height="3px" target="_blank"><img
+                                    src="https://d2g9wbak88g7ch.cloudfront.net/staticimages/facebook.png"
+                                    class="imgicon" alt="Facebook"></a></li>
+                        <li class="list-inline-item"><a href="" height="3px" target="_blank"><img
+                                    src="https://d2g9wbak88g7ch.cloudfront.net/staticimages/linkedin.png"
+                                    class="imgicon" alt="Linkedin"></a></li>
+                        <li class="list-inline-item"><a href="" height="3px" target="_blank"><img
+                                    src="https://d2g9wbak88g7ch.cloudfront.net/staticimages/pinterest.png"
+                                    class="imgicon" alt="Pinterest"></a></li>
+                        <li class="list-inline-item"><a href="" height="3px" target="_blank"><img
+                                    src="https://d2g9wbak88g7ch.cloudfront.net/staticimages/youtube.png" class="imgicon"
+                                    alt="Youtube"></a></li>
+                        <li class="list-inline-item"><a href="" height="3px" target="_blank"><img
+                                    src="https://d2g9wbak88g7ch.cloudfront.net/staticimages/instagram.png"
+                                    class="imgicon" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="botrow">
+                <div class="copy col-md-12  text-center copyrighttext mb-3">
+                    Copyright © 2023 . KP Book Store. <span class="allrightreserve">All Rights Reserved</span>
+                </div>
+                <div class="topbtn">
+                    <a href="#top"><b>^</b></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script> -->
+</body>
+
+</html>
