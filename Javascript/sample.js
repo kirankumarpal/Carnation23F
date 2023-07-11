@@ -1,16 +1,24 @@
-function addition(fn,ln){
-    console.log(fn+ln);
+function addition(fn, ln){
+    result = parseInt(fn) + parseInt(ln);
+    console.log(result);
+    document.getElementById('i2-1').value = result ;
 }
 
 function add() {
-    var fn = document.getElementById('i1-1').value;
-    var ln = document.getElementById('i1-2').value;
-    document.getElementById('answer').innerText = addition(fn,ln);
+    let fn = document.getElementById('i1-1').value;
+    let ln = document.getElementById('i1-2').value;
+    let result = parseInt(fn) + parseInt(ln);
+    document.getElementById('i2-1').value = result ;
 }
 
-// function subtract(a,b){
-//     console.log(a-b);
-// }
+function subtract(a,b){
+    let fn = document.getElementById('i1-1').value;
+    let ln = document.getElementById('i1-2').value;
+    let result = parseInt(fn) - parseInt(ln);
+    document.getElementById('i2-2').value = result ;
+}
+
+
 // function multiply(a,b){
 //     console.log(a*b);
 // }
